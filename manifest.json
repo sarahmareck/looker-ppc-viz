@@ -10,11 +10,28 @@
   "data": {
     "fields": {
       "metrics": [
-        {"id": "Social spend", "name": "Meta Spend"},
-        {"id": "Cost", "name": "Google Spend"},
-        {"id": "Total spent", "name": "LinkedIn Spend"},
-        {"id": "Media Cost", "name": "StackAdapt Spend"}
-      ]
+        {
+          "id": "meta_spend",
+          "name": "Meta Spend",
+          "type": "NUMBER"
+        },
+        {
+          "id": "google_spend",
+          "name": "Google Spend",
+          "type": "NUMBER"
+        },
+        {
+          "id": "linkedin_spend",
+          "name": "LinkedIn Spend",
+          "type": "NUMBER"
+        },
+        {
+          "id": "stack_spend",
+          "name": "StackAdapt Spend",
+          "type": "NUMBER"
+        }
+      ],
+      "dimensions": []
     }
   }
 }
