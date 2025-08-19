@@ -1,0 +1,20 @@
+{
+  "name": "Stacked PPC Table",
+  "description": "Turns wide PPC data into a stacked table by platform.",
+  "resources": {
+    "js": [
+      "script.js"
+    ],
+    "css": []
+  },
+  "data": {
+    "fields": {
+      "metrics": [
+        {"id": "Social spend", "name": "Meta Spend"},
+        {"id": "Cost", "name": "Google Spend"},
+        {"id": "Total spent", "name": "LinkedIn Spend"},
+        {"id": "Media Cost", "name": "StackAdapt Spend"}
+      ]
+    }
+  }
+}
