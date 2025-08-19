@@ -1,37 +1,15 @@
 {
-  "name": "Stacked PPC Table",
-  "description": "Turns wide PPC data into a stacked table by platform.",
+  "name": "Test Viz",
+  "description": "Simple test viz to validate manifest",
   "resources": {
     "js": [
       "script.js"
-    ],
-    "css": []
+    ]
   },
   "data": {
     "fields": {
-      "metrics": [
-        {
-          "id": "meta_spend",
-          "name": "Meta Spend",
-          "type": "NUMBER"
-        },
-        {
-          "id": "google_spend",
-          "name": "Google Spend",
-          "type": "NUMBER"
-        },
-        {
-          "id": "linkedin_spend",
-          "name": "LinkedIn Spend",
-          "type": "NUMBER"
-        },
-        {
-          "id": "stack_spend",
-          "name": "StackAdapt Spend",
-          "type": "NUMBER"
-        }
-      ],
-      "dimensions": []
+      "dimensions": [],
+      "metrics": []
     }
   }
 }
